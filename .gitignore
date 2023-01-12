@@ -1,2 +1,17 @@
 /v/*
 /node/node_modules/*
+adminlte
+api
+app
+banks
+birthday
+chatroom
+dashboard
+django-dashboard-light-blue
+djangocms
+node
+template
+inventory/manager/static
+inventory/static
+resume
+.DS_STORE*
