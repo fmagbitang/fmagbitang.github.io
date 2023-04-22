@@ -1,0 +1,239 @@
+:root {
+  --main-color: #bde2f6;
+  /* --text-color: rgb(43, 80, 53); */
+  --text-color: #eee;
+  --spacing: 10px;
+  --brand-color: rgb(20, 220, 113);
+  --steel-color: steelblue;
+  --bg-color: #a3ef9c;
+  --services-color: #00a01d;
+  --services-shadow: #cccccc;
+  --services-bg: #ffffff;
+  --border-bg: #d3d3d3;
+  --table-bg: #fff;
+  --star-size: 20px;
+  --star-color: lightgray;
+  --star-background: #fc0;
+}
+
+html,
+body {
+  margin: 0;
+  font-size: 20px;
+  width: 100%;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+footer {
+  opacity: 1;
+  background: var(--steel-color);
+  flex: 0 0 auto;
+  font: bold 1.5em Tahoma;
+  height: 1.2em;
+  padding: 1em;
+  text-align: center;
+  font-size: 12px;
+  color: var(--text-color);
+  /* width: 100%; */
+  top: 5px;
+}
+
+
+/* Surface Pro 7 */
+@media screen and (max-width: 912px) and (max-height: 1370px) {
+  .index {
+    margin-top: 50px;
+  }
+
+  .about {
+    overflow: auto;
+    width: 85%;
+    height: auto;
+  }
+}
+
+/* Nest Hub */
+@media screen and (max-width: 1024px) and (max-height: 600px) {
+  .about {
+    overflow: auto;
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 1024px) and (max-height: 890px) {
+  .about {
+    overflow: auto;
+    width: 85%;
+  }
+}
+
+/* Nest Hub Max */
+@media screen and (max-width: 1280px) and (max-height: 800px) {
+
+  .about {
+    overflow: auto;
+    width: 85%;
+    margin-top: 0;
+    height: 550px;
+  }
+}
+
+/* iphone SE */
+@media screen and (max-width: 450px) {
+  .index {
+    margin-top: 100px;
+  }
+
+  .about {
+    margin: auto;
+    margin-top: 20px;
+    overflow: scroll;
+    overflow-y: scroll;
+    position: relative;
+    width: 85%;
+  }
+}
+
+/* Ipads */
+@media screen and (max-width: 900px) and (max-height: 1180px) {
+  .index {
+    margin-top: 150px;
+  }
+
+  .about {
+    overflow-y: scroll;
+    position: relative;
+    width: 85%;
+    margin-top: 200px;
+  }
+
+}
+
+/* max height 1060px */
+@media screen and (max-height: 1060px) {
+
+  .about {
+    overflow-y: scroll;
+    position: relative;
+    width: 85%;
+    margin-top: 60px;
+    margin-bottom: 50px;
+  }
+
+}
+
+/* added */
+@media screen and (max-width: 1024px) and (max-height: 600px) {
+  header {
+    height: 25vh;
+  }
+}
+
+@media screen and (max-width: 1024px) and (max-height: 890px) {
+  header {
+    height: 20vh;
+  }
+}
+
+@media screen and (max-width: 900px) {
+
+  .menu-toggle {
+    display: block;
+    right: 6rem;
+    height: auto;
+  }
+
+  header {
+    height: auto;
+  }
+
+  nav {
+    padding-top: 0;
+    display: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: auto;
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    margin-top: 5rem;
+  }
+
+  nav ul li a {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+
+  .brand {
+    font-size: 5rem;
+  }
+
+  .overlay.menu-open,
+  nav.menu-open {
+    display: flex;
+    transform: scale(1);
+    opacity: 1;
+    height: auto;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+
+  .menu-toggle {
+    display: block;
+    right: 6rem;
+    height: auto;
+  }
+
+  header {
+    height: auto;
+  }
+
+  nav {
+    padding-top: 0;
+    display: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: auto;
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    margin-top: 5rem;
+  }
+
+  nav ul li a {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+
+  .brand {
+    font-size: 3rem;
+  }
+
+  .overlay.menu-open,
+  nav.menu-open {
+    display: flex;
+    transform: scale(1);
+    opacity: 1;
+    height: auto;
+  }
+
+}

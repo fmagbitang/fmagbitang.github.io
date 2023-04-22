@@ -1,0 +1,351 @@
+section {
+  padding: 60px 0;
+  min-height: 100vh;
+  width: 100%;
+  height: auto;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  outline: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.bg-gray {
+  background-color: var(--bg-color);
+}
+
+.site-heading h2 {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.site-heading h2 span {
+  color: var(--services-color);
+}
+
+.carousel-shadow .owl-stage-outer {
+  margin: -15px -15px 0;
+  padding: 15px;
+}
+
+.we-offer-area .our-offer-carousel .owl-dots .owl-dot span {
+  background: var(--services-bg) none repeat scroll 0 0;
+  border: 2px solid;
+  height: 15px;
+  margin: 0 5px;
+  width: 15px;
+}
+
+.we-offer-area .our-offer-carousel .owl-dots .owl-dot.active span {
+  background: var(--services-color) none repeat scroll 0 0;
+  border-color: var(--services-color);
+}
+
+.we-offer-area .item {
+  background: var(--services-bg) none repeat scroll 0 0;
+  border-left: 2px solid var(--services-color);
+  -moz-box-shadow: 0 0 10px var(--services-shadow);
+  -webkit-box-shadow: 0 0 10px var(--services-shadow);
+  -o-box-shadow: 0 0 10px var(--services-shadow);
+  box-shadow: 0 0 10px var(--services-shadow);
+  overflow: hidden;
+  padding: 30px;
+  position: relative;
+  z-index: 1;
+}
+
+.we-offer-area.text-center .item {
+  background: var(--services-bg) none repeat scroll 0 0;
+  border: medium none;
+  padding: 67px 40px 64px;
+}
+
+.we-offer-area.text-center .bg1 {
+  background-image: url("GreenThumbLandscaping/img/landscapemaintenance.png");
+  background-size: cover;
+  border: medium none;
+  padding: 67px 40px 64px;
+}
+
+.we-offer-area.text-center .bg2 {
+  background-image: url("GreenThumbLandscaping/img/treatment.png");
+  background-size: cover;
+  border: medium none;
+  padding: 67px 40px 64px;
+}
+
+.we-offer-area.text-center .bg3 {
+  background-image: url("GreenThumbLandscaping/img/mowing_lawn_4.jpg");
+  background-size: cover;
+  border: medium none;
+  padding: 67px 40px 64px;
+}
+
+.we-offer-area.text-center .bg4 {
+  background-image: url("GreenThumbLandscaping/img/weedmanagement.png");
+  background-size: cover;
+  border: medium none;
+  padding: 67px 40px 64px;
+}
+
+.we-offer-area.text-center .bg5 {
+  background-image: url("GreenThumbLandscaping/img/wet.jpg");
+  background-size: cover;
+  border: medium none;
+  padding: 67px 40px 64px;
+}
+
+.we-offer-area.text-center .bg6 {
+  background-image: url("GreenThumbLandscaping/img/laying_sod.jpg");
+  background-size: cover;
+  border: medium none;
+  padding: 67px 40px 64px;
+}
+
+.we-offer-area.text-center .bg7 {
+  background-image: url("GreenThumbLandscaping/img/Laying_tiles_2.jpg");
+  background-size: cover;
+  border: medium none;
+  padding: 67px 40px 64px;
+}
+
+.we-offer-area.text-center .bg8 {
+  background-image: url("GreenThumbLandscaping/img/laying_tile.jpg");
+  background-size: cover;
+  border: medium none;
+  padding: 67px 40px 64px;
+}
+
+.we-offer-area.text-center .bg9 {
+  background-image: url("GreenThumbLandscaping/img/landscaping.png");
+  background-size: cover;
+  border: medium none;
+  padding: 67px 40px 64px;
+}
+
+.we-offer-area.text-center .bg10 {
+  background-image: url("GreenThumbLandscaping/img/snowclearing.png");
+  background-size: cover;
+  border: medium none;
+  padding: 67px 40px 64px;
+}
+
+.we-offer-area.text-center .bg11 {
+  background-image: url("GreenThumbLandscaping/img/mowing_lawn_3.jpg");
+  background-size: cover;
+  border: medium none;
+  padding: 67px 40px 64px;
+}
+
+.we-offer-area.text-center .bg12 {
+  background-image: url("GreenThumbLandscaping/img/weed.png");
+  background-size: cover;
+  border: medium none;
+  padding: 67px 40px 64px;
+}
+
+.we-offer-area.text-center .bg13 {
+  background-image: url("GreenThumbLandscaping/img/waterpond.png");
+  background-size: cover;
+  border: medium none;
+  padding: 67px 40px 64px;
+}
+
+.we-offer-area.text-center .bg14 {
+  background-image: url("GreenThumbLandscaping/img/laying_sod_3.jpg");
+  background-size: cover;
+  border: medium none;
+  padding: 67px 40px 64px;
+}
+
+.we-offer-area.text-center .bg15 {
+  background-image: url("GreenThumbLandscaping/img/nice_backyard_2.jpg");
+  background-size: cover;
+  border: medium none;
+  padding: 67px 40px 64px;
+}
+
+.we-offer-area.text-center .bg16 {
+  background-image: url("GreenThumbLandscaping/img/nice_backyard_4.jpg");
+  background-size: cover;
+  border: medium none;
+  padding: 67px 40px 64px;
+}
+
+.we-offer-area.text-center .item i {
+  background: var(--services-color) none repeat scroll 0 0;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  color: var(--services-bg);
+  font-size: 40px;
+  height: 80px;
+  line-height: 80px;
+  position: relative;
+  text-align: center;
+  width: 80px;
+  z-index: 1;
+  transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -ms-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  margin-bottom: 25px;
+}
+
+.we-offer-area.text-center .item i::before {
+  text-indent: 100%;
+}
+
+.we-offer-area.text-center .item i::after {
+  border: 2px solid var(--services-color);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  content: "";
+  height: 90px;
+  left: -5px;
+  position: absolute;
+  top: -5px;
+  width: 90px;
+  z-index: -1;
+  transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -ms-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.we-offer-area.item-border-less .item {
+  border: medium none;
+}
+
+.we-offer-area .our-offer-items.less-carousel .equal-height {
+  margin-bottom: 30px;
+}
+
+.we-offer-area.item-border-less .item .number {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  opacity: 0.1;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+
+.our-offer-carousel.center-active .owl-item:nth-child(2n) .item,
+.we-offer-area.center-active .single-item:nth-child(2n) .item {
+  background: var(--services-color) none repeat scroll 0 0;
+}
+
+.our-offer-carousel.center-active .owl-item:nth-child(2n) .item i,
+.our-offer-carousel.center-active .owl-item:nth-child(2n) .item h4,
+.our-offer-carousel.center-active .owl-item:nth-child(2n) .item p,
+.we-offer-area.center-active .single-item:nth-child(2n) .item i,
+.we-offer-area.center-active .single-item:nth-child(2n) .item h4,
+.we-offer-area.center-active .single-item:nth-child(2n) .item p {
+  color: var(--services-bg);
+}
+
+.we-offer-area .item i {
+  color: var(--services-color);
+  display: inline-block;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.we-offer-area .item h4 {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.we-offer-area .item p {
+  margin: 0;
+}
+
+.we-offer-area .item i,
+.we-offer-area .item h4,
+.we-offer-area .item p {
+  transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -ms-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.we-offer-area .item::after {
+  background: var(--services-color) none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: -100%;
+  position: absolute;
+  top: 0;
+  transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -ms-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  width: 100%;
+  z-index: -1;
+}
+
+.we-offer-area .item:hover::after {
+  left: 0;
+}
+
+.we-offer-area .item:hover i,
+.we-offer-area .item:hover h4,
+.we-offer-area .item:hover p {
+  color: var(--services-bg) !important;
+}
+
+.we-offer-area.text-center .item:hover i::after {
+  border-color: var(--services-bg) !important;
+}
+
+.we-offer-area.text-center .item:hover i {
+  background-color: var(--services-bg) !important;
+  color: var(--services-color) !important;
+}
+
+.we-offer-area.text-left .item i {
+  background: var(--services-color) none repeat scroll 0 0;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  color: var(--services-bg);
+  display: inline-block;
+  font-size: 60px;
+  height: 100px;
+  line-height: 100px;
+  margin-bottom: 30px;
+  position: relative;
+  width: 100px;
+  z-index: 1;
+  text-align: center;
+}
+
+.we-offer-area.text-left .item i::after {
+  border: 2px solid var(--services-color);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  content: "";
+  height: 120px;
+  left: -10px;
+  position: absolute;
+  top: -10px;
+  width: 120px;
+}
