@@ -1,6 +1,5 @@
 :root {
   --main-color: #bde2f6;
-  /* --text-color: rgb(43, 80, 53); */
   --text-color: #eee;
   --spacing: 10px;
   --brand-color: rgb(20, 220, 113);
@@ -39,7 +38,6 @@ footer {
   text-align: center;
   font-size: 12px;
   color: var(--text-color);
-  /* width: 100%; */
   top: 5px;
 }
 
@@ -112,6 +110,13 @@ footer {
     margin-top: 200px;
   }
 
+}
+
+/*  Ipads landscape */
+@media screen and (max-width: 1180px) and (max-height: 820px) {
+  .testimonials {
+    margin-top: 100px;
+  }
 }
 
 /* max height 1060px */

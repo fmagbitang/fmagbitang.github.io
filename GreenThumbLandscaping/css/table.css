@@ -141,7 +141,13 @@ table thead tr:first-child th {
 
 .show_always input[type='number']::-webkit-outer-spin-button,
 .show_always input[type='number']::-webkit-inner-spin-button {
-	-webkit-appearance: inner-spin-button;
+	-webkit-appearance: normal;
 	opacity: 1;
 	margin-left: 10px;
+}
+
+input {
+	width: 40px;
+	border: solid 1px lightgrey;
+	border-radius: 0;
 }
