@@ -1,0 +1,12 @@
+version: '3'
+services:
+  fastapi:
+    build: .
+    ports:
+        - 8007:8000
+    networks:
+      - custom
+
+networks:
+  custom:
+    external: true
