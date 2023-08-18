@@ -29,9 +29,17 @@
 
 <body>
     <div class="iframe-container">
-        <iframe src="http://143.198.237.154:3000/"></iframe>
+        <iframe id="myIframe" src="http://143.198.237.154:3000/"></iframe>
     </div>
+    <script>
+        const iframe = document.getElementById('myIframe');
 
+        iframe.addEventListener('load', () => {
+            const currentSrc = iframe.getAttribute('src');
+            window.location.href = currentSrc; // Redirect to the same src value
+        });
+
+    </script>
 </body>
 
 </html>
